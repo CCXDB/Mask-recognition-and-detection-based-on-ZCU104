@@ -1,0 +1,49 @@
+
+Kernel topology "mask_kernel_graph.jpg" for network "mask"
+kernel list info for network "mask"
+                               Kernel ID : Name
+                                       0 : mask
+
+                             Kernel Name : mask
+--------------------------------------------------------------------------------
+                             Kernel Type : DPUKernel
+                               Code Size : 0.05MB
+                              Param Size : 0.96MB
+                           Workload MACs : 1518.45MOPS
+                         IO Memory Space : 0.97MB
+                              Mean Value : 0, 0, 0, 
+                      Total Tensor Count : 32
+                Boundary Input Tensor(s)   (H*W*C)
+                             data_1:0(0) : 260*260*3
+
+               Boundary Output Tensor(s)   (H*W*C)
+           loc_0_conv_1_convolution:0(0) : 33*33*16
+           cls_0_conv_1_convolution:0(1) : 33*33*8
+           loc_1_conv_1_convolution:0(2) : 17*17*16
+           cls_1_conv_1_convolution:0(3) : 17*17*8
+           loc_2_conv_1_convolution:0(4) : 9*9*16
+           cls_2_conv_1_convolution:0(5) : 9*9*8
+           loc_3_conv_1_convolution:0(6) : 5*5*16
+           cls_3_conv_1_convolution:0(7) : 5*5*8
+           loc_4_conv_1_convolution:0(8) : 3*3*16
+           cls_4_conv_1_convolution:0(9) : 3*3*8
+
+                        Total Node Count : 28
+                           Input Node(s)   (H*W*C)
+               conv2d_0_1_convolution(0) : 260*260*3
+
+                          Output Node(s)   (H*W*C)
+             loc_0_conv_1_convolution(0) : 33*33*16
+             cls_0_conv_1_convolution(0) : 33*33*8
+             loc_1_conv_1_convolution(0) : 17*17*16
+             cls_1_conv_1_convolution(0) : 17*17*8
+             loc_2_conv_1_convolution(0) : 9*9*16
+             cls_2_conv_1_convolution(0) : 9*9*8
+             loc_3_conv_1_convolution(0) : 5*5*16
+             cls_3_conv_1_convolution(0) : 5*5*8
+             loc_4_conv_1_convolution(0) : 3*3*16
+             cls_4_conv_1_convolution(0) : 3*3*8
+
+
+
+

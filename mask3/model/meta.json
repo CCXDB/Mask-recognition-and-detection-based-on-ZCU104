@@ -1,0 +1,5 @@
+{
+  "lib": "libvart-dpu-runner.so",
+  "filename": "./dpu_mask.elf",
+  "kernel": [ "mask"]
+}
