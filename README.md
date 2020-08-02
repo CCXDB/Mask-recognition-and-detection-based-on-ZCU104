@@ -29,3 +29,4 @@ vai_c_tensorflow  --frozen_pb /workspace/quan_results/deploy_model.pb  --arch /o
   通过SSH将整个mask3传输到ZCU104板卡中（PS如果显示图片启动ssh时需要配置X11）。
   进入到mask3文件中，输入 python mask3.py model/ 即可运行并得到识别后的图片和结果。此例子结果为91%。
 # 4.结果
+https://github.com/CCXDB/Mask-recognition-and-detection-based-on-ZCU104/tree/master/result/result.png
