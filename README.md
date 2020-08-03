@@ -3,6 +3,8 @@ Mask recognition and detection based on ZCU104
 
 
 # 2020年新工科联盟-Xilinx暑期学校（Summer School）项目
+# 0.介绍
+  可以同时识别5个目标是否戴口罩。
 
 # 1.网络截断
   由于dpu不支持reshape和sigmoid，因此直接量化编译会失败，需要将pb中的节点前移到支持的卷积层，将不支持的reshape和sigmoid放在arm上实现。
